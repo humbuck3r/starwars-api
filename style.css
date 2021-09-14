@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    
+}
+.container{
+    border: 5px solid white;
+    border-radius: 5%;
+}
+.menu{
+    height: 5em;
+    color: yellow;
+    background-color: black;
+    padding: 50px;
+    
+}
+
+.btn{
+    margin-top: 2em;
+    font-family: 'Oswald', sans-serif;
+    width: 150px;
+    font-size: large;
+    cursor: pointer;  
+    border-radius: 10%; 
+}
+.btn:hover{
+    color: red;
+}
